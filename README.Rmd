@@ -1,0 +1,46 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# Welcome to the soundscapeR Tutorial 
+
+To install and run the tutorial, follow the instructions below: \
+\
+
+**To install this tutorial for the [soundscapeR]() R-package, please run:** \
+\
+```{r, eval=FALSE }
+
+devtools::install_github(repo = "ThomasLuypaert/soundscapeR.tutorial")
+
+```
+\
+**Once the package installed, load the package using:** \
+\
+```{r, eval=FALSE}
+
+library(soundscapeR.tutorial)
+
+```
+\
+**Finally, to run the tutorial, use:** \
+\
+```{r, eval=FALSE}
+
+shiny_args <- list(launch.browser = getOption("shiny.launch.browser", interactive()))
+
+learnr::run_tutorial(name = "soundscapeR_tutorial", package = "soundscapeR.tutorial", shiny_args = shiny_args)
+
+```
+

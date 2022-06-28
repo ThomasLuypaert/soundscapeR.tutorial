@@ -83,6 +83,7 @@ First, the sampling rate and bit-depth of the acoustic recorder need to be chose
 
 Next, the recording schedule and duration for each site should be decided. The workflow we present here makes use of eco-acoustic data, or acoustic recordings collected at large timescales (e.g. days, weeks, months or even years!). For soundscape studies, sound files are usually recorded for 1-minute durations (see [here](https://research.ecosounds.org/2019/08/09/analyzing-data-in-one-minute-chunks.html) why). Furthermore, the soundscape can be recorded either using a continuous (1440 minutes / day) or regular interval (*e.g.* 1 min / 5 min - or 288 minutes / day) sampling regime. However, it should be noted that sparse sampling regimes are generally discouraged for soundscape studies, as they require soundscapes to be recorded for long period of time before the soundcape variability is captured adequately, which in turn introduces issues related to seasonal variation. Ultimately, regardless of which acoustic survey sampling design is chosen, if multiple soundscapes are to be compared across a landscape, the same sampling design should be used. 
 
+
 $$\\[0.1in]$$
 
 ```{r Fig_1, fig.align = 'centre', out.width = "100%", fig.cap = "", echo=FALSE}
