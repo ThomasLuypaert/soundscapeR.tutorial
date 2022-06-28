@@ -88,11 +88,8 @@ $$\\[0.1in]$$
 
 ```{r Fig_1, fig.align = 'centre', out.width = "100%", fig.cap = "", echo=FALSE}
 
-figure_dir <- base::system.file("images", 
-                           package = "soundscapeR.tutorial",
-                           mustWork = TRUE)
+knitr::include_graphics("images/Step_1_data_collection.png")
 
-knitr::include_graphics(here::here(paste0(figure_dir, "/Step_1_data_collection.png")))
 ```
 
 $$\\[0.001in]$$
@@ -149,7 +146,7 @@ $$\\[0.1in]$$
 
 ```{r Fig_2, fig.align = 'centre', out.width = "100%", fig.cap = "", echo=FALSE}
 
-knitr::include_graphics(here::here(paste0(figure_dir, "/PAM_devices.png")))
+knitr::include_graphics("images/PAM_devices.png")
 ```
 
 $$\\[0.001in]$$
@@ -177,7 +174,8 @@ $$\\[0.1in]$$
 
 ```{r Fig_3, fig.align = 'centre', out.width = "100%", fig.cap = "", echo=FALSE}
 
-knitr::include_graphics(here::here(paste0(figure_dir, "/PAM_case.png")))
+knitr::include_graphics("images/PAM_case.png")
+
 ```
 
 $$\\[0.001in]$$
@@ -198,7 +196,8 @@ $$\\[0.1in]$$
 
 ```{r Fig_4, fig.align = 'centre', out.width = "100%", fig.cap = "", echo=FALSE}
 
-knitr::include_graphics(here::here(paste0(figure_dir, "/PAM_batteries.jpg")))
+knitr::include_graphics("images/PAM_batteries.jpg")
+
 ```
 
 $$\\[0.001in]$$
@@ -214,7 +213,8 @@ $$\\[0.1in]$$
 
 ```{r Fig_5, fig.align = 'centre', out.width = "100%", fig.cap = "", echo=FALSE}
 
-knitr::include_graphics(here::here(paste0(figure_dir, "/PAM_SD.png")))
+knitr::include_graphics("images/PAM_SD.png")
+
 ```
 
 $$\\[0.001in]$$
@@ -243,7 +243,8 @@ $$\\[0.1in]$$
 
 ```{r Fig_6, fig.align = 'centre', out.width = "100%", fig.cap = "", echo=FALSE}
 
-knitr::include_graphics(here::here(paste0(figure_dir, "/PAM_equipment_insert.png")))
+knitr::include_graphics("images/PAM_equipment_insert.png")
+
 ```
 
 $$\\[0.001in]$$
@@ -260,7 +261,9 @@ $$\\[0.1in]$$
 
 ```{r Fig_7, fig.align = 'centre', out.width = "100%", fig.cap = "", echo=FALSE}
 
-knitr::include_graphics(here::here(paste0(figure_dir, "/PAM_AudioMoth_App_Total.png")))
+
+knitr::include_graphics("images/PAM_AudioMoth_App_Total.png")
+
 ```
 
 $$\\[0.001in]$$
@@ -464,7 +467,8 @@ $$\\[0.1in]$$
 
 ```{r Fig_8, fig.align = 'center', out.width = "100%", fig.cap = "", echo=FALSE}
 
-knitr::include_graphics(here::here(paste0(figure_dir, "/acoustic_trait_space_total.png")))
+knitr::include_graphics("images/acoustic_trait_space_total.png")
+
 ```
 $$\\[0.001in]$$
 ***Fig 8:*** *A conceptual visualization of the acoustic trait space in which species can produce sound.* ***A.*** *A 24h sample of the acoustic trait space, delineated by the frequency domain (0 - 22,050 Hz) and temporal domain (00:00h - 24:00h). We will use this as our sample of the soundscape, and sample it repeatedly over the course of the acoustic survey (multiple days).* ***B.*** *A visual representation of how more species-rich sound-producing community can lead to a higher diversity of sound in the 24h acoustic trait space.*
@@ -489,7 +493,8 @@ $$\\[0.1in]$$
 
 ```{r Fig_9, fig.align = 'center', out.width = "100%", fig.cap = "", echo=FALSE}
 
-knitr::include_graphics(here::here(paste0(figure_dir, "/Step_3_OSUs.png")))
+knitr::include_graphics("images/Step_3_OSUs.png")
+
 ```
 $$\\[0.001in]$$
 ***Fig 9:*** *A conceptual visualization of Operational Sound Units (OSUs) in the 24-hour acoustic trait space. Each 24-hour sample of the acoustic trait space can be divided into sections which we define as OSUs. These OSUs are delineated by the frequency-bin width of the spectral index vector (frequency domain) and the recording interval of the sampling regime (temporal domain), and groups sounds by their shared properties in acoustic trait space.*
@@ -515,7 +520,9 @@ Finally, the function performs a noise-reduction step to each spectrogram (see [
 $$\\[0.1in]$$
 
 ```{r Fig_10, fig.align = 'center', out.width = "100%", fig.cap = "", echo=FALSE}
-knitr::include_graphics(here::here(paste0(figure_dir, "/Step_2_1_index_computation.png")))
+
+knitr::include_graphics("images/Step_2_1_index_computation.png")
+
 ```
 $$\\[0.001in]$$
 ***Fig 10:*** *A theoretical representation of how spectral indices are computed. First, each 1-minute sound file is subjected to a Fast Fourier Transformation, which extracts information on the amplitude variation across the time-frequency domain. Next, the resulting spectrogram is subjected to a noise-removal step. Finally, a mathematical equation (spectral index) is applied to the amplitude values in each frequency bin, resulting in a spectral index vector with one index value per frequency bin.*
@@ -712,7 +719,8 @@ $$\\[0.1in]$$
 
 ```{r Fig_11, fig.align = 'center', out.width = "100%", fig.cap = "", echo=FALSE}
 
-knitr::include_graphics(here::here(paste0(figure_dir, "/Step_2_2_index_computation.png")))
+knitr::include_graphics("images/Step_2_2_index_computation.png")
+
 
 ```
 $$\\[0.001in]$$
@@ -1057,7 +1065,8 @@ $$\\[0.1in]$$
 
 ```{r Fig_12, fig.align = 'center', out.width = "100%", fig.cap = "", echo=FALSE}
 
-knitr::include_graphics(here::here(paste0(figure_dir, "/Step_4_binarization.png")))
+knitr::include_graphics("images/Step_4_binarization.png")
+
 ```
 $$\\[0.001in]$$
 ***Fig 12:*** *A visualization showing the binarization step, starting from the chronologically concatenated CVR-index values for a 24-hour soundscape sample. Next, a threshold value is applied, which is derived using a binarization algorithm. Based on this threshold value, the raw CVR-values are transformed into binary detection (1) / non-detection (0) values.*
@@ -1320,7 +1329,8 @@ $$\\[0.1in]$$
 
 ```{r Fig_13, fig.align = 'center', out.width = "100%", fig.cap = "", echo=FALSE}
 
-knitr::include_graphics(here::here(paste0(figure_dir, "/Step_5_relative_abundance.png")))
+knitr::include_graphics("images/Step_5_relative_abundance.png")
+
 ```
 $$\\[0.001in]$$
 ***Fig 13:*** *A visualization showing the way we calculate the relative abundance of OSUs. Per OSU, the detection (1) / non-detection (0) values are summed across all 24h samples of the acoustic trait space. Next, this value is divided by the total number of 24h soundscape samples to get the incidence frequency - hereafter referred to as the OSU's relative abundance.*
@@ -1566,7 +1576,8 @@ Want to know more about Hill numbers? For a deep dive, visit [this website](http
 **Hill numbers are computed as follows:** \
 ```{r Fig_14, fig.align = 'left', out.width = "30%", fig.cap = "", echo=FALSE}
 
-knitr::include_graphics(here::here(paste0(figure_dir, "/Hill_numbers.png")))
+knitr::include_graphics("images/Hill_numbers.png")
+
 ```
 \
 With *S* being the number of OSUs, *pi* the relative abundance of OSU *i*, and *q* the order of diversity. This equation expresses the diversity of the system as the ‘effective number of entities’ (OSUs) – the number of equally abundant OSUs that would yield the same value of diversity. \
@@ -1597,7 +1608,8 @@ $$\\[0.1in]$$
 
 ```{r Fig_15, fig.align = 'center', out.width = "100%", fig.cap = "", echo=FALSE}
 
-knitr::include_graphics(here::here(paste0(figure_dir, "/Diversity_profile.png")))
+knitr::include_graphics("images/Diversity_profile.png")
+
 ```
 $$\\[0.001in]$$
 ***Fig 14:*** *A soundscape diversity profile displaying the change in the soundscape diversity in function of the order of diversity (q) for four soundscapes with differing evenness (0D/ 2D) values. The lower the evenness of the soundscape, the more rapidly the soundscape diversity drops in function of the order of diversity.*
