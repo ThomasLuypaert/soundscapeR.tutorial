@@ -1565,8 +1565,6 @@ Want to know more about Hill numbers? For a deep dive, visit [this website](http
 **Hill numbers are computed as follows:** \
 ```{r Fig_14, fig.align = 'left', out.width = "30%", fig.cap = "", echo=FALSE}
 
-figure_dir <- list.dirs(getwd())[grep("images", list.dirs(getwd()))][1]
-
 knitr::include_graphics(here::here(paste0(figure_dir, "/Hill_numbers.png")))
 ```
 \
