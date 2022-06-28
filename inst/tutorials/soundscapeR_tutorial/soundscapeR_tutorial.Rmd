@@ -87,7 +87,10 @@ $$\\[0.1in]$$
 
 ```{r Fig_1, fig.align = 'centre', out.width = "100%", fig.cap = "", echo=FALSE}
 
-figure_dir <- list.dirs(getwd())[grep("images", list.dirs(getwd()))][1]
+figure_dir <- paste0(base::system.file("extdata", 
+                           package = "soundscapeR",
+                           mustWork = TRUE), 
+         "/images")
 
 knitr::include_graphics(here::here(paste0(figure_dir, "/Step_1_data_collection.png")))
 ```
