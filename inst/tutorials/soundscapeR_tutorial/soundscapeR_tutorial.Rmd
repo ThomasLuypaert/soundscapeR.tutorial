@@ -88,7 +88,7 @@ $$\\[0.1in]$$
 ```{r Fig_1, fig.align = 'centre', out.width = "100%", fig.cap = "", echo=FALSE}
 
 figure_dir <- paste0(base::system.file("extdata", 
-                           package = "soundscapeR",
+                           package = "soundscapeR.tutorial",
                            mustWork = TRUE), 
          "/images")
 
