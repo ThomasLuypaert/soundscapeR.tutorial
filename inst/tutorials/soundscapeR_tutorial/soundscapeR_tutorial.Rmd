@@ -69,7 +69,7 @@ aggregated_soundscape_CVR <- aggregate_df(binarized_soundscape = binarized_sound
 
 **Welcome to the `soundscapeR` tutorial!**
 
-In this interactive RMarkdown document, we will teach you the basics or quantifying and visualizing the diversity of sound in large acoustic data using the `soundscapeR` R-package. This package is currently under development on [GitHub](https://github.com/ThomasLuypaert/soundscapeR), and the associated manuscript is in preparation. For a detailed overview of the analytical workflow, go have a look at the published paper [here](https://besjournals.onlinelibrary.wiley.com/doi/10.1111/2041-210X.13924). Moreover, head on over to this R-package's [vignette](https://github.com/ThomasLuypaert/soundscape) for a quick look at some background information, as well as some useful examples.
+In this interactive RMarkdown document, we will teach you the basics or quantifying and visualizing the diversity of sound in large acoustic data using the `soundscapeR` R-package. This package is currently under development on [GitHub](https://github.com/ThomasLuypaert/soundscapeR), and the associated manuscript is in preparation. For a detailed overview of the analytical workflow, go have a look at the published paper [here](https://besjournals.onlinelibrary.wiley.com/doi/10.1111/2041-210X.13924). Moreover, head on over to this R-package's [vignette](https://github.com/ThomasLuypaert/soundscapeR) for a quick look at some background information, as well as some useful examples.
 
 
 ## Collecting acoustic data 

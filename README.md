@@ -42,7 +42,7 @@ learnr::run_tutorial(name = "soundscapeR_tutorial", package = "soundscapeR.tutor
 If you’re interested in the slide deck that accompanies this tutorial,
 you can find the slides on Part I: Collecting acoustic data using
 AudioMoth
-[here](https://docs.google.com/presentation/d/1u42EZRPJVxk1hHQiKCxqK2VJ4bP-ZLObOFvDajZf9zo/edit?usp=sharing),
+[here](https://docs.google.com/presentation/d/1NtVe3vXpoF1uVDwj0k0U8TbBa1LmwTGKGmA4fEmlW6I/edit?usp=sharing),
 and the slides on Part II: A soundscape approach to analysing big
 acoustic data
-[here](https://docs.google.com/presentation/d/13xTOucQI4DPDWQnhJ2pYWqrXHzV0mu6LQm0ERheTXJI/edit?usp=sharing).
+[here](https://docs.google.com/presentation/d/1yU6hUVBs7OeNlraAe8xGulqO2Yp4gFCd88asXrzaZFM/edit?usp=sharing).
